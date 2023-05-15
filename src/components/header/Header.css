@@ -1,0 +1,41 @@
+.header {
+  height: 230px;
+  background-color: var(--light);
+  object-fit: cover;
+  background-size: cover;
+}
+
+.header > .container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.header > .container * {
+  color: var(--dark);
+  text-decoration: none;
+}
+.header > .container h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  position: relative;
+}
+.header > .container h1:hover {
+  text-decoration: underline;
+}
+.header > .container p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.header > .container img {
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .header > .container img {
+    display: none;
+  }
+}

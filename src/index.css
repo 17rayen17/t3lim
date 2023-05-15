@@ -1,13 +1,87 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --dark: #111;
+  --light: #fefefe;
+  --orange: #bc360a;
+  --green: #e49b5f;
+  --brown: #220e10;
+}
+* {
+  box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'IBM Plex Serif', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection {
+  background-color: var(--green);
+  color: var(--light);
+}
+
+a {
+  text-decoration: none;
+}
+ul, li {
+  list-style: none;
+}
+
+.section {
+  padding: 10px;
+  width: 100%;
+}
+
+.section .title {
+  color: var(--dark);
+  margin: 0;
+  padding: 30px;
+}
+
+.section .link {
+  display: block;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.section p {
+  color: var(--dark);
+  width: 70%;
+  margin-right: 50px;
+  border-right: 3px solid var(--dark);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.section p[align="center"] {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.section .images img {
+  width: 45%;
+}
+
+.section table {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+.section table,
+.section table * {
+  border: 1px solid #111;
+  text-align: center;
 }

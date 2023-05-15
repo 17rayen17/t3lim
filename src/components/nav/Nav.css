@@ -1,0 +1,104 @@
+.nav {
+  position: relative;
+  background-color: #bc360a18;
+}
+.nav ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.nav ul li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul > li {
+  position: relative;
+  display: flex;
+  width: max-content;
+  text-align: center;
+}
+.nav ul li > a,
+.nav ul li > span{
+  padding: 10px;
+  color: var(--dark);
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li.active > a,
+.nav ul li:hover > span {
+  color: var(--orange);
+}
+
+.nav ul li:hover > a,
+.nav ul li:hover > span {
+  background-color: var(--brown);
+  color: var(--light);
+}
+.nav ul li > ul.nested {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  flex-direction: column;
+}
+.nav ul li:hover > ul.nested {
+  display: flex;
+}
+.nav ul li > ul.nested li {
+  width: 100%;
+}
+
+.nav ul li > ul.nested li a {
+  background-color: red;
+  text-align: start;
+  color: var(--light);
+  background-color: var(--brown);
+}
+
+.nav ul li > ul.nested li a:hover {
+  background-color: var(--orange);
+}
+
+@media (max-width: 992px) {
+  .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-100%);
+    display: block !important;
+    font-size: 25px;
+    z-index: 999;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav ul > li {
+    width: 100%;
+  }
+  .nav ul > li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nav ul li > ul.nested {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 9999;
+    width: 100%;
+  }
+  .nav ul li > ul.nested li {
+    width: 100%;
+  }
+}
