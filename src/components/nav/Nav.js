@@ -50,7 +50,7 @@ const Nav = () => {
           <li>
             <span>جذاذة الدرس</span>
             <ul className="nested">
-              <li><Link to="/الخامس">الخامس ابتدائي</Link></li>
+              <li><Link to="/الخامسة">الخامسة ابتدائي</Link></li>
               <li><Link to="/السادسة">السادسة ابتدائي</Link></li>
             </ul>
           </li>

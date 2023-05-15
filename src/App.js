@@ -15,7 +15,7 @@ function App() {
             <Route path='/مفهوم-بيداغوجيا-ريادة-الاعمال' element={<><Header /><Nav /><NTwo/></>} />
             <Route path='/مبادى-بيداغوجيا-ريادة-الاعمال' element={<><Header /><Nav /><Three/></>} />
             <Route path="/المبادئ" element={<><Header /><Nav /><Seven/></>} />
-            <Route path="/الخامس" element={<><Header /><Nav /><Eme5/></>} />
+            <Route path="/الخامسة" element={<><Header /><Nav /><Eme5/></>} />
             <Route path="/السادسة" element={<><Header /><Nav /></>} />
             <Route path="/الروابط" element={<><Header /><Nav /><Links/></>} />
             <Route path='/اساليب-و-الوسائل-اللازمة-لتنفيذ-بيداغوجيا-ريادة-الاعمال' element={<><Header /><Nav /><Four/></>} />

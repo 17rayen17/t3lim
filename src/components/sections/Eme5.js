@@ -6,7 +6,7 @@ const Eme5 = () => {
       <h2 className="title">جذاذة الدرس</h2>
       <p align="center">الحصّة الأوّلى</p>
       <p align="center">النّشاط: إيقاظ علمي</p>
-      <p align="center">القسم : خأمسة أ</p>
+      <p align="center">القسم : خامسة أ</p>
       <p align="center">
         :هدف الحصّة: يكون المتعلم قادرا على تعرف مصادر المياه في الطبيعة
       </p>

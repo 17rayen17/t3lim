@@ -7,7 +7,6 @@ const Header = () => {
       <div className="container">
       <a href="/">
         <h1>هيا بادر</h1>
-        <p>Vivons les sciences ensemble</p>
       </a>
       <img src={logo} alt="logo" />
       </div>
