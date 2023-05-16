@@ -1,8 +1,10 @@
+import imageF2 from "../../../assets/img/game5.jpg"
+
 const Nb5 = () => {
   return (
     <div className="section">
       <h2 className="title">لعبة الصندوق السحري</h2>
-      <p  dir="ltr" align="end">
+      <p  dir="rtl" align="start">
         نضع في الصندوق مجموعة صور تعبر عن أفعال وأحداث مختلفة ونطلب من الطفل
         إدخال يده واختيار صورة وسرد قصة أو التعليق بجمل واضحة ومفيدة ومن الممكن
         أن يكمل زميله باقي الأحداث مما ينمي الخيال عند الطفل ويساعده على الطلاقة
@@ -17,6 +19,10 @@ const Nb5 = () => {
         السرير مليون ريال . اقترح أكبر عدد ممكن من الأفكار للإستفادة من هذا
         المال.
       </p>
+      <div className="images">
+        <img src={imageF2} alt="gfdg" />
+      </div>
+      <p style={{border: "none"}}><a href="https://syriagifts.net/product/%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A7%D9%84%D8%B3%D8%AD%D8%B1%D9%8A/">https://syriagifts.net/product/</a></p>
     </div>
   );
 };

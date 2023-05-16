@@ -1,8 +1,10 @@
+import imageF from "../../../assets/img/game.jpg"
+
 const Nb1 = () => {
   return (
     <div className="section">
       <h2 className="title">دور اللعب التخيلي في تطوير التفكير</h2>
-      <p  dir="ltr" align="end">
+      <p  dir="rtl" align="start">
         اللعب التخيلي يساهم إلى حد بعيد في تطوير تفكير الأطفال وتنمية علاقاتهم
         الاجتماعية كأسلوب لتوضيح المفاهيم والقيم وتقريبها إلى الأذهان ويفيدنا
         للإطلاع على أسرار كثيرة في حياة الطفل. إن اللعب التخيلي ضروري جداً للنمو
@@ -17,6 +19,10 @@ const Nb1 = () => {
         بقايا أجزاء ألعاب ....) بعد ذلك نطلب من الطفل ترتيب هذه الخامات ليشكل
         منها لوحة أو صورة ذات معنى(قارب- بيت....)
       </p>
+      <div className="images">
+        <img src={imageF} alt="image00009" />
+      </div>
+      <p style={{border: "none"}}><a href="https://mariamallubli.wordpress.com">https://mariamallubli.wordpress.com</a></p>
     </div>
   );
 };

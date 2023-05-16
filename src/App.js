@@ -2,7 +2,7 @@ import './App.css';
 import Header from "./components/header/Header"
 import Nav from "./components/nav/Nav"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Bienv, One, NTwo, Three, Four, Seven, Eme5, Links, Nb1, Nb2, Nb3, Nb4, Nb5, Nb6, Nb7, Nb8, Nb9, Nb10, Nb11 } from './components/sections/main';
+import { Bienv, One, NTwo, Three, Four, Seven, Eme5, Links, Nb1, Nb2, Nb3, Nb4, Nb5, Nb6, Nb7, Nb8, Nb9, Nb10, Nb11, Ahdef, Ahdef2 } from './components/sections/main';
 
 function App() {
   return (
@@ -30,6 +30,9 @@ function App() {
             <Route path="/لعبة-أشياء-صحيحة-على-أشياء-خاطئة" element={<><Header /><Nav /><Nb9/></>} />
             <Route path="/لعبة-التقليد" element={<><Header /><Nav /><Nb10/></>} />
             <Route path="/لعبة-التنبؤ" element={<><Header /><Nav /><Nb11/></>} />
+            <Route path="/لعبة-التنبؤ" element={<><Header /><Nav /><Nb11/></>} />
+            <Route path="/التربية-على-التنمية-المستدامة" element={<><Header /><Nav /><Ahdef/></>} />
+            <Route path="/الأهداف" element={<><Header /><Nav /><Ahdef2/></>} />
         </Routes>
       </Router>
     </>

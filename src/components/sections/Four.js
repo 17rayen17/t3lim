@@ -9,7 +9,7 @@ const Four = () => {
       <h2 className="title">
         اساليب والوسائل اللازمة لتنفيذ بيداغوجيا ريادة الاعمال؟
       </h2>
-      <p dir="ltr" align="end">
+      <p dir="rtl" align="start">
         "Kearney and Surlemont" وفقا لكرني وسيرلمون فإن هذه البيداغوجيا تدعو إلى
         تكامل المحتويات التعليمية المختلفة من خلال سياقات محددة لنوع ريادة
         الأعمال، حيث تقود التلاميذ إلى التعلم من خلال التحديات الحقيقيّة التي
@@ -32,6 +32,7 @@ const Four = () => {
         <img src={imageThree} alt="image03" />
         <img src={imageFour} alt="image04" />
       </div>
+      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Feduschool40.blog%2F2021%2F03%2F28%2F%25D8%25A7%25D9%2585%25D8%25AB%25D9%2584%25D8%25A9-%25D8%25B9%25D9%2584%25D9%2589-%25D9%2585%25D9%2587%25D8%25A7%25D8%25B1%25D8%25A7%25D8%25AA-%25D8%25A7%25D9%2584%25D8%25AA%25D9%2581%25D9%2583%25D9%258A%25D8%25B1-%25D8%25A7%25D9%2584%25D8%25A7%25D8%25A8%25D8%25AF%25D8%25A7%25D8%25B9%25D9%258A%2F%3Ffbclid%3DIwAR2moF_tpU3EXQdiEbhkgXHO3951dz6qKRkDiLhOQSear-QyhA5duH2TFeA&h=AT1aoTBwPspfGuwWsv4KzegZcwydzr0-veveny1wf95ZylC7H_pzrgUPp3jV1OfLCEsU7aoWWsBj9VUnbEOBt_fQonn9lRqSLZxOFuzAMzv-V2aN9dYHa8e3t1swc1Ep8UIjqQ">هنا</a>
       <table dir="ltr">
         <tr>
           <th colSpan={2}>

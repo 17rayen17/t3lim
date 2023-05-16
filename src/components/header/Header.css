@@ -21,9 +21,6 @@
   font-weight: 700;
   position: relative;
 }
-.header > .container h1:hover {
-  text-decoration: underline;
-}
 .header > .container p {
   font-size: 22px;
   font-weight: 300;
